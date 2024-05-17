@@ -1,0 +1,44 @@
+
+.form-wrp{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    background-color: goldenrod;
+}
+
+.form-control{
+    display: grid;
+    padding: 4px 0px;
+    gap: 5px;
+}
+
+.form-control input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.form-wrp button {
+    padding: 4px 6px;
+    border: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.nav-bar{
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    background: #fbfbfb;
+    padding: 8px;
+}
